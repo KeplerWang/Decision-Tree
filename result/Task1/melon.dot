@@ -1,0 +1,57 @@
+digraph tree{
+3[label="feature: 纹理
+sample number: 17
+entropy: 0.9975"];
+5[label="feature: 根蒂
+sample number: 9
+entropy: 0.7642"];
+6[shape=box, label="class: 是
+sample number: 5
+entropy: 0.0"];
+5->6[label="蜷缩"];
+8[label="feature: 色泽
+sample number: 3
+entropy: 0.9182"];
+9[shape=box, label="class: 是
+sample number: 1
+entropy: 0.0"];
+8->9[label="青绿"];
+11[label="feature: 触感
+sample number: 2
+entropy: 1.0"];
+12[shape=box, label="class: 是
+sample number: 1
+entropy: 0.0"];
+11->12[label="硬滑"];
+13[shape=box, label="class: 否
+sample number: 1
+entropy: 0.0"];
+11->13[label="软粘"];
+8->11[label="乌黑"];
+14[shape=box, label="class: 是
+sample number: 0
+entropy: 0.0"];
+8->14[label="浅白"];
+5->8[label="稍蜷"];
+15[shape=box, label="class: 否
+sample number: 1
+entropy: 0.0"];
+5->15[label="硬挺"];
+3->5[label="清晰"];
+17[label="feature: 触感
+sample number: 5
+entropy: 0.7219"];
+18[shape=box, label="class: 否
+sample number: 4
+entropy: 0.0"];
+17->18[label="硬滑"];
+19[shape=box, label="class: 是
+sample number: 1
+entropy: 0.0"];
+17->19[label="软粘"];
+3->17[label="稍糊"];
+20[shape=box, label="class: 否
+sample number: 3
+entropy: 0.0"];
+3->20[label="模糊"];
+}

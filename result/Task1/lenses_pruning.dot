@@ -1,0 +1,21 @@
+digraph tree{
+3[label="feature: tear rate
+sample number: 24
+entropy: 1.3260"];
+4[shape=box, label="class: no lenses
+sample number: 12
+entropy: 0.0"];
+3->4[label="reduced"];
+6[label="feature: astigmatic
+sample number: 12
+entropy: 1.5545"];
+8[shape=box, label="class: soft
+sample number: 6
+entropy: 0.6500"];
+6->8[label="no"];
+16[shape=box, label="class: hard
+sample number: 6
+entropy: 0.9182"];
+6->16[label="yes"];
+3->6[label="normal"];
+}
